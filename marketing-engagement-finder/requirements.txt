@@ -1,0 +1,24 @@
+# Core frameworks
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+streamlit==1.39.0
+
+# OpenAI + Pinecone clients
+openai>=1.42.0
+pinecone-client>=4.1.0
+
+# NLP + ML
+transformers>=4.44.0
+torch>=2.2.0
+scikit-learn>=1.5.0
+numpy>=1.26.0
+
+# Data handling
+pydantic>=2.7.0
+requests>=2.32.3
+
+# Optional: caching / perf
+tqdm>=4.66.0
+
+# Optional: deployment
+gunicorn>=21.2.0
